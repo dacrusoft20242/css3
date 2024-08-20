@@ -1,0 +1,85 @@
+/* Cabezote */
+
+header {
+    background-color: yellow;
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 250%;
+    text-align: left;
+}
+
+
+/* menu */
+
+.menu_hor {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: green;
+}
+
+.menu_hor li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+.menu_hor li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+.menu_hor li:last-child {
+    border-right: none;
+}
+
+
+/* Productos */
+
+section {
+    width: 73%;
+    float: left;
+    margin-left: 10px;
+}
+
+aside {
+    width: 23%;
+    float: left;
+    margin-top: 4px;
+}
+
+aside img {
+    margin-left: 10px;
+}
+
+article {
+    clear: both;
+}
+
+article img {
+    width: 100px;
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+/* footer */
+
+footer {
+    clear: both;
+    background-color: yellow;
+    margin: 0px;
+    padding: 5px;
+    border-top: 2px solid black;
+    font-family: Arial;
+}
